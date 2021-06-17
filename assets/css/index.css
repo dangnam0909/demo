@@ -1,0 +1,263 @@
+a:hover {
+    color: #ce6b92;
+}
+
+/* css section main */
+#section__title {
+    padding: 60px 0px;
+    background-color: #fff;
+}
+
+#section__about {
+    padding: 60px 0px;
+    background-color: #f7f6f5;
+}
+
+#section__outservice {
+    padding: 60px 0px;
+    background-color: #fff;
+}
+
+#section__content {
+    padding: 60px 0px;
+    background-color: #f7f6f5;
+}
+
+#section__contact {
+    padding: 60px 0px;
+    background-color: #fff;
+}
+
+#section__googlemap {
+    padding: 60px 0px;
+    background-color: #f7f6f5;
+}
+
+/*  */
+
+/*  */
+/* Container DIV - automatically generated */
+.simply-scroll-container {
+    position: relative;
+}
+ 
+/* Clip DIV - automatically generated */
+.simply-scroll-clip {
+    position: relative;
+    overflow: hidden;
+}
+ 
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ 
+.simply-scroll-list li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ 
+.simply-scroll-list li img {
+    border: none;
+    display: block;
+}
+ 
+.simply-scroll-list, #scroller {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-height: 350px;
+}
+
+.simply-scroll .simply-scroll-list li a:before {
+    content: " ";
+    position: absolute;
+    background: #00000075;
+    height: 0%;
+    width: 100%;
+    bottom: 0;
+    transition: 0.5s ease;
+}
+
+.simply-scroll .simply-scroll-list li a .herehover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    z-index: 99999;
+    text-align: center;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    /* background: red; */
+    text-shadow: 0 0 3px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+    transition: 0.3s ease;
+}
+
+.simply-scroll .simply-scroll-list li a:hover .herehover {
+    opacity: 1;
+}
+
+.simply-scroll .simply-scroll-list li a {
+    position: absolute;
+    /* display: block; */
+    /* height: 100%; */
+    width: auto;
+    top: 0;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-position: center right;
+    background-size: cover;
+}
+
+/* Custom class modifications - adds to / overrides above
+ 
+.simply-scroll is default base class */
+ 
+/* Container DIV */
+.simply-scroll {
+    width: 576px;
+    height: 200px;
+    margin-bottom: 1em;
+}
+ 
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+    width: 576px;
+    height: 200px;
+}
+ 
+/* Explicitly set height/width of each list item */
+.simply-scroll .simply-scroll-list li {
+    float: left; /* Horizontal scroll only */
+    width: 290px;
+    height: 200px;
+}
+/*  */
+/* css stdio */
+h2.about_title {
+    text-align: center;
+    position: relative;
+    line-height: 1;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: .015em;
+    padding: 0 0 15px 0;
+    margin: 0 auto 45px auto;
+    color: #333;
+}
+
+h2.about_title::after {
+    background: linear-gradient(to right, rgba(195, 109, 151, 1) 0%, rgba(214, 106, 142, 1) 100%);
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 0 -25px;
+}
+
+.btn {
+    cursor: pointer;
+    display: block;
+    line-height: 1;
+    padding: 1.5em 0;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn span {
+    cursor: inherit;
+    z-index: 1;
+    position: relative;
+    padding-right: 20px;
+}
+
+.btn_readmore.btn {
+    color: #fff;
+    background: rgba(195, 109, 151, 1);
+    background: -moz-linear-gradient(top, rgba(195, 109, 151, 1) 0%, rgba(214, 106, 142, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(195, 109, 151, 1)), color-stop(100%, rgba(214, 106, 142, 1)));
+    background: -webkit-linear-gradient(top, rgba(195, 109, 151, 1) 0%, rgba(214, 106, 142, 1) 100%);
+    background: -o-linear-gradient(top, rgba(195, 109, 151, 1) 0%, rgba(214, 106, 142, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(195, 109, 151, 1) 0%, rgba(214, 106, 142, 1) 100%);
+    background: pick;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#c36d97', endColorstr='#d66a8e', GradientType=0);
+}
+
+.btn span:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    border: 0 none;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    -ms-transform: translateX(-5px) rotate(-135deg);
+    transform: translateX(-5px) rotate(-135deg);
+    margin: -4px 0 0 0;
+}
+
+.btn:hover {
+    background: #cf6b91;
+    color: #fff;
+}
+
+/* body:not(#top) .btn {
+    padding: 20px;
+    background: #fba7cb;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+} */
+
+/* body:not(#top) .btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #fba7cb;
+    color: #fff;
+    z-index: 1;
+    -webkit-transition: -webkit-transform .3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0s;
+    transition: transform .3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0s;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+body:not(#top) .btn::after {
+    transform-origin: 0 50% 0;
+}
+
+body:not(#top) .btn:hover::after {
+    transform: scaleX(1);
+    -webkit-transition: -webkit-transform .35s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0s;
+    transition: transform .35s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0s;
+} */
+
+.readmore_v1 {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/*  */
