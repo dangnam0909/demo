@@ -32,6 +32,22 @@ body.noscroll {
     overflow: hidden;
 }
 
+/* container */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-right: .5em;
+    padding-left: .5em;
+    max-width: 960px;
+}
+
+img {
+    background: 0 0;
+    border: none;
+    pointer-events: none;
+}
+/*  */
+
 /* regular anchor style ------------------------------------------------------------------------- */
 a {
     color: #333333;

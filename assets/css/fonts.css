@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "KozMinPr6N-hv";
+    src: url("../fonts/KozMinPr6N-Heavy.ttf");
+}
+
+@font-face {
+    font-family: "KozMinPr6N-bold";
+    font-weight: bold;
+    src: url("../fonts/KozMinPr6N-Bold.ttf");
+}
+
+@font-face {
+    font-family: "KozMinPr6N-md";
+    src: url("../fonts/KozMinPr6N-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}

@@ -11,21 +11,25 @@ a:hover {
 #section__about {
     padding: 60px 0px;
     background-color: #f7f6f5;
+    display: none;
 }
 
 #section__outservice {
     padding: 60px 0px;
     background-color: #fff;
+    height: 700px;
 }
 
 #section__content {
     padding: 60px 0px;
+    height: 700px;
     background-color: #f7f6f5;
 }
 
 #section__contact {
     padding: 60px 0px;
     background-color: #fff;
+    height: 700px;
 }
 
 #section__googlemap {
