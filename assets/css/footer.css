@@ -21,7 +21,7 @@ li.bdr {
 }
 
 .sp_footer {
-    padding: 0px 45px;
+    padding: 0px 30px;
 }
 
 .sp_footer img {
@@ -64,7 +64,7 @@ li.bdr {
 }
 
 #gototop a {
-    background-image: url(../img/icon2.png);
+    background-image: url(../img/studio/icon01.png);
     background-position: center;
     background-repeat: no-repeat;
     display: -webkit-box;

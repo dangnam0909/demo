@@ -11,25 +11,21 @@ a:hover {
 #section__about {
     padding: 60px 0px;
     background-color: #f7f6f5;
-    display: none;
 }
 
 #section__outservice {
     padding: 60px 0px;
     background-color: #fff;
-    height: 700px;
 }
 
 #section__content {
     padding: 60px 0px;
-    height: 700px;
     background-color: #f7f6f5;
 }
 
 #section__contact {
     padding: 60px 0px;
     background-color: #fff;
-    height: 700px;
 }
 
 #section__googlemap {
@@ -38,6 +34,12 @@ a:hover {
 }
 
 /*  */
+.p_text {
+    font-size: 18px;
+    color: #382213;
+    font-family: "KozMinPr6N-bold";
+    text-align: justify;
+}
 
 /*  */
 /* Container DIV - automatically generated */
@@ -131,6 +133,7 @@ Class name automatically added to element */
     width: 576px;
     height: 200px;
     margin-bottom: 1em;
+    margin: 0 auto 45px auto;
 }
  
 /* Clip DIV */
@@ -201,6 +204,11 @@ h2.about_title::after {
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#c36d97', endColorstr='#d66a8e', GradientType=0);
 }
 
+.btn_readmore.btn:hover {
+    opacity: 1;
+    transition: opacity 250ms 300ms;
+}
+
 .btn span:before {
     content: '';
     position: absolute;
@@ -217,7 +225,7 @@ h2.about_title::after {
 }
 
 .btn:hover {
-    background: #cf6b91;
+    background: #f14286;
     color: #fff;
 }
 
@@ -260,7 +268,7 @@ body:not(#top) .btn:hover::after {
 } */
 
 .readmore_v1 {
-    max-width: 300px;
+    max-width: 250px;
     margin: 0 auto;
 }
 
