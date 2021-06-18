@@ -269,7 +269,7 @@ body:not(#top) .btn:hover::after {
 
 .readmore_v1 {
     max-width: 250px;
-    margin: 0 auto;
+    margin: 40px auto 0 auto;
 }
 
 /*  */
