@@ -89,7 +89,6 @@ function scrollToTarget(target) {
 }
 
 $(window).scroll(function () {
-
     if (window.innerWidth >= 992) {
         if ($(window).scrollTop() > 600) {
             $("body").addClass('mn-scroll-active');
@@ -97,5 +96,4 @@ $(window).scroll(function () {
             $("body").removeClass('mn-scroll-active');
         }
     }
-
 });

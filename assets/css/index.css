@@ -23,6 +23,177 @@ a:hover {
     background-color: #f7f6f5;
 }
 
+/*  */
+#section__content .container {
+    max-width: 801px;
+}
+
+#section__content .mt-30 {
+    margin-top: 30rem;
+}
+
+#section__content .mt-20 {
+    margin-top: 20rem;
+}
+
+#section__content .flex-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+#section__content .bold {
+    font-weight: bold;
+}
+
+#section__content table {
+    width: 100%;
+    max-width: 801px;
+    margin: 0 auto;
+}
+
+#section__content table tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+#section__content table tr th {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+#section__content table tr th .required {
+    padding: 0rem 2rem;
+    line-height: 1.1em;
+    background-color: red;
+    color: #fff;
+    margin-left: 12px;
+}
+
+#section__content table tr td {
+    width: 100%;
+}
+
+#section__content .birthday__select {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#section__content .birthday__select div {
+    width: 100%;
+    max-width: 32.5%;
+}
+
+#section__content .birthday__select div select {
+    width: 100%;
+}
+
+#section__content .birthday__select .error {
+    width: 100%;
+}
+
+#section__content label.error {
+    color: red;
+}
+
+#section__content select {
+    width: 100%;
+    font-size: 1em;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background: #d7d7d7;
+    color: #333;
+    border-radius: 5px;
+    background-clip: padding-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#section__content input,
+#section__content textarea {
+    width: 100%;
+    font-size: 1em;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background: #d7d7d7;
+    color: #333;
+    border-radius: 5px;
+    background-clip: padding-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#section__content .submit {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #d4e020;
+    color: #fff;
+    display: block;
+    line-height: 1.8em;
+    padding-bottom: 15px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    border: none;
+    padding: 13px 0px;
+}
+
+#section__content .submit:hover {
+    background-color: #91af0a9f;
+}
+
+#section__content ::-webkit-input-placeholder {
+    color: #FAFAFA;
+}
+
+#section__content :-moz-placeholder {
+    color: #FAFAFA;
+}
+
+#section__content ::-moz-placeholder {
+    color: #FAFAFA;
+}
+
+#section__content :-ms-input-placeholder {
+    color: #FAFAFA;
+}
+
+#section__content button {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    background-color: #2ABCA7;
+    padding: 12px 45px;
+    border-radius: 5px;
+    border: 1px solid #2ABCA7;
+    -webkit-transition: .5s;
+    transition: .5s;
+    display: inline-block;
+    cursor: pointer;
+    width: 30%;
+    color: #fff;
+}
+
+#section__content .form_content {}
+
+
+
+/*  */
+
+
 #section__contact {
     padding: 60px 0px;
     background-color: #fff;
@@ -46,13 +217,13 @@ a:hover {
 .simply-scroll-container {
     position: relative;
 }
- 
+
 /* Clip DIV - automatically generated */
 .simply-scroll-clip {
     position: relative;
     overflow: hidden;
 }
- 
+
 /* UL/OL/DIV - the element that simplyScroll is inited on
 Class name automatically added to element */
 .simply-scroll-list {
@@ -61,19 +232,20 @@ Class name automatically added to element */
     padding: 0;
     list-style: none;
 }
- 
+
 .simply-scroll-list li {
     padding: 0;
     margin: 0;
     list-style: none;
 }
- 
+
 .simply-scroll-list li img {
     border: none;
     display: block;
 }
- 
-.simply-scroll-list, #scroller {
+
+.simply-scroll-list,
+#scroller {
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -127,7 +299,7 @@ Class name automatically added to element */
 /* Custom class modifications - adds to / overrides above
  
 .simply-scroll is default base class */
- 
+
 /* Container DIV */
 .simply-scroll {
     width: 576px;
@@ -135,19 +307,21 @@ Class name automatically added to element */
     margin-bottom: 1em;
     margin: 0 auto 45px auto;
 }
- 
+
 /* Clip DIV */
 .simply-scroll .simply-scroll-clip {
     width: 576px;
     height: 200px;
 }
- 
+
 /* Explicitly set height/width of each list item */
 .simply-scroll .simply-scroll-list li {
-    float: left; /* Horizontal scroll only */
+    float: left;
+    /* Horizontal scroll only */
     width: 290px;
     height: 200px;
 }
+
 /*  */
 /* css stdio */
 h2.about_title {
@@ -229,6 +403,41 @@ h2.about_title::after {
     color: #fff;
 }
 
+/* css table */
+.ds_contact {
+    color: #382213;
+    font-family: "KozMinPr6N-bold";
+}
+
+/* .about_description {
+    color: #382213;
+    font-family: "KozMinPr6N-bold";
+    padding-top: 30px;
+} */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#myInput {
+    float: right;
+}
+
+/*  */
+
 /* body:not(#top) .btn {
     padding: 20px;
     background: #fba7cb;
@@ -273,3 +482,26 @@ body:not(#top) .btn:hover::after {
 }
 
 /*  */
+
+/* css mobile */
+@media screen and (max-width: 768px) {
+    #section__content {
+        /* padding-bottom: 50rem; */
+    }
+
+    #section__content .form {
+        margin-top: 20px;
+    }
+
+    #section__content table tr {
+        margin-bottom: 12px;
+    }
+
+    #section__content table tr th {
+        margin-bottom: 7px;
+    }
+
+    #section__content .submit {
+        max-width: 100%;
+    }
+}
