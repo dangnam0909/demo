@@ -64,7 +64,7 @@
 
 #header_menu .header_logo nav ul li a {
     font-size: 22px;
-    font-family: "KozMinPr6N-hv";
+    font-family: "KozMinPr6N-bold";
     color: #382213;
     line-height: 1.6em;
     position: relative;
@@ -78,7 +78,7 @@
     text-transform: uppercase;
     display: block;
     color: #151313;
-    font-size: 15px;
+    font-size: 14px;
     padding-top: 3px;
 }
 
@@ -382,10 +382,24 @@ div#hamburger>span {
     }
 }
 
-@media screen and (max-width: 1500px) {
-    #header_menu {
-        padding-top: 2rem;
+@media screen and (max-width: 1300px) {
+    .mn-scroll-active #header_menu .header_logo nav ul li a::before {
+        top: 24px;
     }
+
+    .mn-scroll-active #header_menu .header_logo nav ul li {
+        padding: 0rem 3rem;
+    }
+
+    #header_menu .header_logo nav ul li a::before {
+        top: 32px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    /* #header_menu {
+        padding-top: 2rem;
+    } */
 }
 
 @media screen and (max-width: 320px) {
